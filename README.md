@@ -2,35 +2,35 @@
 Banking App from Team Green Bearcat
 
 
-Data model
+# Data model
 
 
-Contexts:
-Identity
-Bank
+# Contexts:
+## Identity
+## Bank
 
 
-Models
-Identity
-	User
-		ID
+# Models
+## Identity
+### User
+#### ID
 
-Bank
-	Accounts
-		Owned by 1 user
-		Accessible by multiple users
-		Read/Write Access levels
-		Balance
-	Transactions
-		From account
-		To account
-		Timestamp
-		Amount
-		Currency
-		By User
+## Bank
+### Accounts
+#### Owned by 1 user
+#### Accessible by multiple users
+#### Read/Write Access levels
+#### Balance
+### Transactions
+#### From account
+#### To account
+#### Timestamp
+#### Amount
+#### Currency
+#### By User
 	
 	
-Events
+# Events
 
 	Transactions
 		1. Freeze the amount on sender account and remove from balance
